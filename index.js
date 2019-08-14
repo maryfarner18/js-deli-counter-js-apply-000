@@ -1,4 +1,4 @@
-
+var lineLength = 0
 
 // tell the customer their place in line
 function takeANumber(line, name) {
