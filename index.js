@@ -9,11 +9,11 @@ function takeANumber(line, name) {
 }
 
 
-function takeANumber2(num) {
-  var spot = line.length + 1 
+function takeANumber2() {
   
-  line[spot-1] = name
-  var phrase = "Welcome, " + name + ". You are number " + spot + " in line."
+  var spot = line.length + 1
+  
+  var phrase = "Welcome, aou are number " + num++ + " in line."
   
   return phrase
 }
