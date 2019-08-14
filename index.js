@@ -1,3 +1,5 @@
+
+
 // tell the customer their place in line
 function takeANumber(line, name) {
   var spot = line.length + 1 
@@ -8,8 +10,6 @@ function takeANumber(line, name) {
   return phrase
 }
 
-var lineLength = 0
-
 function takeANumber2() {
   
   lineLength++
@@ -19,8 +19,6 @@ function takeANumber2() {
   
   return phrase
 }
-
-
 
 
 //returns next person in line and takes them out of the line
