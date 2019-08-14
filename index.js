@@ -12,9 +12,9 @@ var lineLength = 0
 
 function takeANumber2() {
   
+  lineLength++
   
-  var phrase = "Welcome, aou are number " + spot + " in line."
-  
+  var phrase = "Welcome, you are number " + lineLength + " in line."
   
   
   return phrase
