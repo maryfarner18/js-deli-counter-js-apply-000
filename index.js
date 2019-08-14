@@ -9,6 +9,16 @@ function takeANumber(line, name) {
 }
 
 
+function takeANumber2(num) {
+  var spot = line.length + 1 
+  
+  line[spot-1] = name
+  var phrase = "Welcome, " + name + ". You are number " + spot + " in line."
+  
+  return phrase
+}
+
+
 
 
 //returns next person in line and takes them out of the line
