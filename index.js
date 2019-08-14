@@ -8,12 +8,14 @@ function takeANumber(line, name) {
   return phrase
 }
 
+var lineLength = 0
 
 function takeANumber2() {
   
-  var spot = line.length + 1
   
-  var phrase = "Welcome, aou are number " + num++ + " in line."
+  var phrase = "Welcome, aou are number " + spot + " in line."
+  
+  
   
   return phrase
 }
