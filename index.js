@@ -8,6 +8,9 @@ function takeANumber(line, name) {
   return phrase
 }
 
+
+
+
 //returns next person in line and takes them out of the line
 function nowServing(line) {
   
